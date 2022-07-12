@@ -1,0 +1,131 @@
+.banner{
+    height: auto;
+    position: relative;
+    margin-top: 127px;
+    left: 0;
+    right: 0;   
+}
+
+.help_centre{
+    text-align: center;
+    font-size: 15;
+    background-color: rgb(238, 230, 230);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.help_centre h3{
+    color: rgb(97, 89, 89);
+    font-size: 20;
+}
+
+.icon_container{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: white;
+}
+
+.icon1{
+    width: 400px;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid rgb(139, 126, 126);
+    box-sizing: border-box;
+}
+
+.icon1 p{
+    font-weight: bolder;
+    font-size: 25;
+}
+
+.icon1 p:hover{
+    color: blue;
+    
+}
+
+.form h2{
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    box-sizing: border-box;
+    height: 40px;
+    padding: 05;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.form{
+    text-align: center;
+    background-color: white;
+    
+}
+
+.form-name{
+    height: 50px;
+    width: 30%;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border: 0;
+    border-bottom: 2px solid violet;
+}
+
+.form-number{
+    height: 50px;
+    width: 30%;
+    text-decoration: none;
+    border: 0px ;
+    border-bottom: 2px solid violet;
+}
+
+.form-email{
+    height: 50px;
+    width: 30%;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border: 0px ;
+    border-bottom: 2px solid violet;
+}
+
+.form-query{
+    height: 50px;
+    width: 30%;
+    text-decoration: none;
+    border: 0px ;
+    font-size: 15px;
+    border-bottom: 2px solid violet;
+}
+
+.form-message{
+    /* height: 50px;
+    width: 30%; */
+    text-decoration: none;
+    margin-bottom: 40px;
+    margin-right: 435px;
+    border: 0;
+    border-bottom: 2px solid violet;
+    font-size: 15px;
+    /* border: 1px solid violet ; */
+    /* border-radius: 10px; */
+}
+
+.form-sub{
+    width: 600px;
+    margin-left: 40px;
+    margin-right: 535;
+}
+
+.form-submit{
+    margin-bottom: 40px;
+    margin-left: 270px;
+    height: 50px;
+    width: 500px;
+    border: 0;
+    background-image: linear-gradient(to right, green, skyblue 100%);
+    color: white;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+

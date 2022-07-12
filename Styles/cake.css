@@ -1,0 +1,119 @@
+.banner{
+    height: auto;
+    position: relative;
+    margin-top: 150px;
+    left: 0;
+    right: 0;
+    display: flex;
+    width: 110%;
+}
+
+.p1{
+    position: absolute;
+    right: 500px;
+    color: red;
+    font-size: 30;
+    text-align: left;
+    font: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p2{
+    position: absolute;
+    left: 835px;
+    right: 210px;
+    text-align: justify;
+    top: 60px;
+
+}
+
+.option{
+    position: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.option_container{
+    position: absolute;
+    left: 835px;
+    top: 150px;
+    justify-content: space-between;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+ .option_container p:hover{
+     color: black;
+ }
+
+ .option_container1{
+    position: absolute;
+    left: 1000px;
+    top: 150px;
+    justify-content: space-between;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+ .option_container1 p:hover{
+     color: black;
+ }
+
+
+.option_container2{
+    position: absolute;
+    left: 1150px;
+    top: 150px;
+    justify-content: space-between;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+ .option_container2 p:hover{
+     color: black;
+
+
+ }.option_container3{
+    position: absolute;
+    left: 1300px;
+    top: 150px;
+    justify-content: space-between;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+ .option_container3 p:hover{
+     color: black;
+ }
+
+.cakes{
+    position: relative;
+    top: 50;
+    margin: 40;
+    padding: 50;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.c1 img{
+    justify-content: space-between;
+    border: 3px solid wheat;
+    transition: 0.3s;
+    cursor: pointer;
+    list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.c1 img:hover{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.c1 p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
